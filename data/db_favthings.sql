@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:8889
--- Generation Time: Mar 29, 2019 at 02:00 AM
+-- Generation Time: Mar 29, 2019 at 02:14 AM
 -- Server version: 5.7.23
 -- PHP Version: 7.2.8
 
@@ -59,4 +59,4 @@ ALTER TABLE `tbl_favs`
 -- AUTO_INCREMENT for table `tbl_favs`
 --
 ALTER TABLE `tbl_favs`
-  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
