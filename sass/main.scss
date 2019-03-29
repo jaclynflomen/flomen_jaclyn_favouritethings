@@ -1,0 +1,52 @@
+@import './mediaqueries.scss';
+
+body {
+    padding: 10px;
+    font-family: 'Prestige Elite Std', Helvetica, Arial, sans-serif;
+    background-image: url('/images/grilled.png');
+    background-repeat: repeat;
+
+  }
+
+#images img {
+    width: 15em;
+    height: auto;
+    /* margin-right: 2em; */
+}
+
+.thing-name {
+    font-family: 'Adobe Ming Std', serif;
+    text-align: center;
+}
+
+.thing-container a img {
+    width: 16em;
+    height: 16em;
+    object-fit: cover;
+    border: 10px white solid;
+    box-shadow: 5px 5px 5px 2px darkgray;
+
+}
+
+#title {
+    text-align: center;
+}
+
+#back {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+    padding-left: 1em;
+}
+
+.description {
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+
+
+
+

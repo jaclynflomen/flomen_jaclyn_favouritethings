@@ -1,0 +1,61 @@
+@media screen and (max-width: 499px){
+    #images img {
+         text-align: center;
+         margin: 0 auto;
+    }
+ 
+    #images img {
+     margin-left: 7em;
+ }
+ 
+ .thing-container {
+     width: 17em;
+     margin-top: 2em;
+     margin-right: 2.5em;
+     margin-left: 5.5em;
+     float: left;
+ }
+ 
+ }
+ 
+ @media screen and (min-width: 500px) and (max-width: 750px){
+    #images img {
+        margin-left: 7em;
+    }
+
+    #things{
+        margin-left:3em; 
+    }
+
+
+    #images img {
+        margin-left: 8em;
+    }
+    
+    .thing-container {
+        width: 17em;
+        margin-top: 2em;
+        margin-right: 2.5em;
+        margin-left: 7em;
+        float: left;
+    }
+}
+
+@media screen and (min-width: 750px){
+    #images img {
+        margin-left: 7.5em;
+    }
+
+    #things{
+        margin-left:10em; 
+    }
+
+
+    .thing-container {
+        width: 17em;
+        margin-top: 2em;
+        margin-right: 2.5em;
+        /* margin-left: 2.5em; */
+        float: left;
+    }
+}
