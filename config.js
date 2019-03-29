@@ -2,7 +2,7 @@ const config = {
     user: "root",
     password: "root",
     host: "localhost",
-    port: "3000",
+    port: "8889",
     database: "db_favthings"
 }
 

@@ -6,7 +6,7 @@ var connect = require('../utils/sqlConnect');
 /* GET home page. */
 router.get('/', function(req, res, next) {
   //do a database query and get some of the hero data
-  connect.query(`SELECT name, image FROM tbl_favs`, (err, result) => {
+  connect.query(`SELECT id, name, image FROM tbl_favs`, (err, result) => {
     if (err) {
       throw err;
       console.log(err);

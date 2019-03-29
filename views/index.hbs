@@ -1,10 +1,10 @@
 <section id="things">
     {{#each images}}
     <div class="thing-container">
+        <h3 class="thing-name">{{name}}</h3>
         <a href="/{{name}}">
             <img src="/images/{{image}}" alt="image">
         </a>
-        <h3 class="thing-name">{{name}}</h3>
     </div>
     {{/each}}
 </section>
